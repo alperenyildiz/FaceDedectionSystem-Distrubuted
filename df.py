@@ -2,7 +2,7 @@
 """
 Created on Sat Apr 11 00:21:49 2020
 
-@author: Alperen Yıldız & Metehan Serçe
+@author: Almt Core
 """
 import os
 import smtplib
