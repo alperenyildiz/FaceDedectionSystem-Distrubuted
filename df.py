@@ -161,7 +161,7 @@ class DataTrain:
                 if (confidence < 100):
 
                     id = names[id]
-                    confidence = "  {0}%".format(round(155 - confidence))
+                    confidence = "  {0}%".format(round(100 - confidence))
                     konum_al()
 
                 else:
@@ -200,7 +200,7 @@ class Mail:
             mail = smtplib.SMTP("smtp.gmail.com", 587)
             mail.ehlo()
             mail.starttls()
-            mail.login("proje.server@gmail.com", "canaziz44")
+            mail.login("proje.server@gmail.com", "passwordHere")
             mail.sendmail(message["From"], message["To"], message.as_string())
             print("Mail Başarılı bir şekilde gönderildi.")
             mail.close()
