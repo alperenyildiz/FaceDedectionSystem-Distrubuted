@@ -2,7 +2,7 @@
 """
 Created on Sat Apr 11 18:19:08 2020
 
-@author: Alperen Yıldız & Metehan Serçe
+@author: Almt Core
 """
 import time
 from df import DataSet
